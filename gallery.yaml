@@ -1,0 +1,29 @@
+---
+# Members of your group.
+group:
+  - name: Zane Neelin
+    netid: zmn5
+  - name: Sam Alston
+    netid: sza6
+  - name: Everett Lee
+    netid: egl47
+# Your PM.
+pm:
+  name: David Han
+  netid: dmh338
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Dungeon Quest (Nethack Inspired Video Game)"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/egl47/finalproject"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a video game inspired by the 1987 roguelike, Nethack.
+  Functionally, our game works as a game engine, taking in a text file
+  (within said text file is a reference to a separate Json file holding
+  additional data) and launching a game of Dungeon Quest. The player
+  will battle through layers of a dungeon, battling enemies, avoiding 
+  traps, and solving puzzles to reach the exit. 

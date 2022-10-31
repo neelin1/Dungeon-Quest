@@ -1,0 +1,8 @@
+- download and unzip the file
+-  you must install two opam packages
+  - make sure your opam is updated: in terminal, write [$ opam update]
+  - in terminal, write [$ opam install core]
+  - in terminal, write [$ opam install ANSITerminal]
+- in terminal write [make play] to begin the game
+- when prompted for a file, write [dungeon]
+- Use wasd commands to move around the dungeon
