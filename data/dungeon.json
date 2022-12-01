@@ -1,0 +1,30 @@
+{
+  "starting coordinates": [
+    {
+      "x": 1
+    },
+    {
+      "y": 5
+    }
+  ],
+  "encounters": [
+    {
+      "x": 6,
+      "y": 30,
+      "type": "cutscene",
+      "json": "test_cutscene"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "type": "flavor",
+      "json": "This dark crypt smells like must."
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "type": "battle",
+      "json": "test_battle"
+    }
+  ]
+}

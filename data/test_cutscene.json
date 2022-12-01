@@ -1,0 +1,57 @@
+{
+  "start scene": "the stairway",
+  "scenes": [
+    {
+      "name": "the stairway",
+      "description": "A stairway descends deeper into the dungeon \n - up \n - down",
+      "exits": [
+        {
+          "name": "up",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "down"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "down",
+      "description": "The stairway winds down and down. Each of your steps disturbs the dust. \n - up \n - down",
+      "exits": [
+        {
+          "name": "up",
+          "id": "the stairway"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

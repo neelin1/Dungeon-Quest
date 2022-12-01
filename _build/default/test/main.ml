@@ -1,4 +1,6 @@
 open OUnit2
+open Game
+open State
 
 let line = "    |.......|            |.......|  "
 

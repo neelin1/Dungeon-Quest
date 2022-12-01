@@ -1,3 +1,4 @@
 (executable
  (name main)
- (libraries ounit2))
+ (public_name test)
+ (libraries Game ounit2))

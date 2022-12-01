@@ -1,9 +1,12 @@
 lib: [
   "_build/install/default/lib/Game/META"
   "_build/install/default/lib/Game/battle.ml"
+  "_build/install/default/lib/Game/battle.mli"
   "_build/install/default/lib/Game/cutscene.ml"
+  "_build/install/default/lib/Game/cutscene.mli"
   "_build/install/default/lib/Game/dune-package"
   "_build/install/default/lib/Game/dungeon.ml"
+  "_build/install/default/lib/Game/dungeon.mli"
   "_build/install/default/lib/Game/game.a"
   "_build/install/default/lib/Game/game.cma"
   "_build/install/default/lib/Game/game.cmi"
@@ -13,12 +16,15 @@ lib: [
   "_build/install/default/lib/Game/game.ml"
   "_build/install/default/lib/Game/game__Battle.cmi"
   "_build/install/default/lib/Game/game__Battle.cmt"
+  "_build/install/default/lib/Game/game__Battle.cmti"
   "_build/install/default/lib/Game/game__Battle.cmx"
   "_build/install/default/lib/Game/game__Cutscene.cmi"
   "_build/install/default/lib/Game/game__Cutscene.cmt"
+  "_build/install/default/lib/Game/game__Cutscene.cmti"
   "_build/install/default/lib/Game/game__Cutscene.cmx"
   "_build/install/default/lib/Game/game__Dungeon.cmi"
   "_build/install/default/lib/Game/game__Dungeon.cmt"
+  "_build/install/default/lib/Game/game__Dungeon.cmti"
   "_build/install/default/lib/Game/game__Dungeon.cmx"
   "_build/install/default/lib/Game/game__State.cmi"
   "_build/install/default/lib/Game/game__State.cmt"
@@ -30,6 +36,10 @@ lib: [
 ]
 libexec: [
   "_build/install/default/lib/Game/game.cmxs"
+]
+bin: [
+  "_build/install/default/bin/Main"
+  "_build/install/default/bin/test"
 ]
 doc: [
   "_build/install/default/doc/Game/README.md"
