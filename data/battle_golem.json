@@ -1,0 +1,84 @@
+{
+  "start message": "A large stone statue of a man stands tall before you, its body carved from solid rock and imbued with ancient magic. Its dull grey surface is unmarred by any markings or decorations, save for a pair of glowing red eyes that burn with an inner fire. In its hands, the golem holds a long staff made of charred wood, topped with a spherical orb of crackling flames. \n Suddenly, the statue begins to move toward you, its a STONE GOLEM. The STONE GOLEM's movements are slow and deliberate, as if every step is calculated and weighed against a great burden. It appears to be hostile.",
+  "hp": 100,
+  "fleeable": false,
+  "moves": [
+    {
+      "name": "monster_unarmedattack_noguard",
+      "text": "With a deafening roar, the massive STONE GOLEM charges at you, its massive fist raised high above its head. THE GOLEM slams its fist down into you, catching you unprepared, and sending you flying backwards. You're dazed and bruised. The golem stands tall, ready to strike again. \n",
+      "damage": 8
+    },
+    {
+      "name": "monster_unarmedattack_guard",
+      "text": "You see THE STONE GOLEM standing in front of you, its massive fist raised and ready to strike. But as THE STONE GOLEM swings, you're prepared. You dodge to the side, its fist barrelling down on the stone slab you were just standing on, cracking it. \n",
+      "damage": 0
+    },
+    {
+      "name": "monster_armedattack_noguard",
+      "text": "You feel a sudden wave of heat wash over you as THE STONE GOLEM swings its fire staff at you, unleashing a blazing fireball. The spell slams into you, sending you flying backwards as the flames engulf your body. You scream in pain as the fire scorches your skin, leaving you badly burned and gasping for breath. The STONE GOLEM towers over you, its glowing eyes fixed on you as it prepares to strike again. \n",
+      "damage": 15
+    },
+    {
+      "name": "monster_armedattack_guard",
+      "text": "You feel a sudden wave of heat wash over you as THE STONE GOLEM swings its fire staff at you, unleashing a blazing fireball. However, you’re prepared. You dodge to the side; the spell slams into the floor, exploding in a burning ball of flames. The heat still scorches you, but you managed to avoid most of the damage. \n",
+      "damage": 6
+    },
+    {
+      "name": "monster_prepareattack",
+      "text": "THE STONE GOLEM raises the staff, pointing it directly at you. A ball of flames begins to form at the end of the staff, growing larger and larger. The golem takes aim, ready to unleash a devastating fireball upon you. You must act quickly to defend yourself or face certain doom. \n",
+      "damage": 0
+    },
+    {
+      "name": "monster_defend",
+      "text": "THE STONE GOLEM’s eyes are glowing with a fierce intensity, and its mouth is twisted into a snarl as it prepares to defend itself against your attack, moving its shield-like arms before itself in anticipation. \n",
+      "damage": 0
+    },
+    {
+      "name": "loss_message",
+      "text": "\nTHE STONE GOLEM raises its staff and unleashes a blast of searing flames towards you. You try to dodge, but the fire engulfs you, burning your flesh and charring your bones. You scream in pain as the golem continues to attack, the flames consuming you until you are nothing more than a pile of ashes on the floor. \nTHE STONE GOLEM turns away, its mission accomplished, leaving you dead and defeated. \nThis is the end. GAME OVER",
+      "damage": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sword",
+      "damage": 10,
+      "armedattack_prepared": "You slash your enemy with your sword.",
+      "armedattack_unprepared": "Your sword is heavy, raise it before you strike!",
+      "prepare": "You raise your sword.",
+      "endingtext": "\nYou slash the monster one last time, and it falls to the ground.\nVictory is yours."
+    },
+    {
+      "name": "the flame scepter",
+      "damage": 24,
+      "armedattack_prepared": "The scepter blasts a vortex of fire at your enemy from its head, illuminating the whole dungeon.",
+      "armedattack_unprepared": "The scepter must be charged before you can attack!",
+      "prepare": "The orange plasma in the orb at the tip dances, hums, and shines brighter. You can feel its energy shaking the staff.",
+      "endingtext": "\nThe fire engulfs your enemy, and they lay there still, skin blackened and scorched after it subsides. \nVictory is yours."
+    },
+    {
+      "name": "gungnir",
+      "damage": 20,
+      "armedattack_prepared": "You take aim and throw gungnir, and it seems as if Odin itself guides the spear to target.",
+      "armedattack_unprepared": "You must take aim before you attack!",
+      "prepare": "You raise gungnir over your shoulder and prepare to strike.",
+      "endingtext": "\nYou aim between your enemy's eyes, and the spear finds its place as Norse legend told. \nVictory is yours."
+    },
+    {
+      "name": "mjolnir",
+      "damage": 18,
+      "armedattack_prepared": "You throw mjolnir and a blinding crack of lightning strikes your enemy as it flies at them.",
+      "armedattack_unprepared": "Mjolnir is heavy, and takes strength to throw.",
+      "prepare": "You raise mjolnir, and thunder reverberates throughout the cavern. The hair on your arms begin to stand up from the static.",
+      "endingtext": "\nWith a final thunderous boom, your enemy falls to the ground. \nVictory is yours."
+    },
+    {
+      "name": "the scythe of cronus",
+      "damage": 16,
+      "armedattack_prepared": "You swing the scythe and inflict a gaping wound upon your enemy.",
+      "armedattack_unprepared": "The scythe is heavy and takes great strength to wield.",
+      "prepare": "You carefully look for an opening as you prepare the scythe for another strike.",
+      "endingtext": "\nWith one final swing of the scythe, you decapitate your foe. \nVictory is yours."
+    }
+  ]
+}

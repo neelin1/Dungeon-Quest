@@ -1,0 +1,82 @@
+{
+  "starting coordinates": [
+    {
+      "x": 1
+    },
+    {
+      "y": 2
+    }
+  ],
+  "encounters": [
+    {
+      "x": 2,
+      "y": 2,
+      "type": "flavor",
+      "json": "You stand on a sandy ledge overlooking a subterranean gulf of darkness to the east. The ledge is wide but rough. Sand, rocky debris, and the bones of small animals cover it. A rickety, old wooden bridge crosses the dark chasm to another rocky ledge. On the far rocky ledge you can vaguely see the entrance to a shadowy cave.",
+      "repeatable": true
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "type": "flavor",
+      "json": "You peer inside the cave in the rocky bluff. As you eyes adjust to the darkness, you see a stone door set in the wall. It's closed, but there appears to be some sort of mechanism to the door's side.",
+      "repeatable": true
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "type": "keydoor",
+      "json": "keydoor_tomb",
+      "repeatable": true
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "type": "flavor",
+      "json": "A light wind is everpresent in the tall bluffs on the Great Plateau.",
+      "repeatable": true
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "type": "flavor",
+      "json": "A rickety bridge sways in the wind in front of you.",
+      "repeatable": true
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "type": "cutscene",
+      "json": "cutscene_bridge",
+      "repeatable": true
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "type": "flavor",
+      "json": "You here a strange crunch as you walk across the plateau. Your foot has cracked open a dried bone, some sort of femur. The area ahead is obscured by a number of short rock formations.",
+      "repeatable": true
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "type": "battle",
+      "json": "battle_zombie",
+      "repeatable": false
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "type": "cutscene",
+      "json": "cutscene_crank",
+      "repeatable": true
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "type": "battle",
+      "json": "battle_spider",
+      "repeatable": false
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "start message": "You hear something skittering around in the darkness above you. \nAs you slowly look up, terrified at what you might see, a giant set of eight insectoid eyes and legs stare back at you. \nYou have the misfortune of encountering THE ARACHNID.",
+  "hp": 60,
+  "fleeable": true,
+  "moves": [
+    {
+      "name": "monster_unarmedattack_noguard",
+      "text": "THE ARACHNID catches you by surprise and smacks you with one of its legs, bruising your ribs. \n",
+      "damage": 6
+    },
+    {
+      "name": "monster_unarmedattack_guard",
+      "text": "THE ARACHNID almost catches you with a leg to the side, but you block it just in time with your guard. \n",
+      "damage": 0
+    },
+    {
+      "name": "monster_armedattack_noguard",
+      "text": "THE ARACHNID screeches, blinding and immobilizing you with a shot of web, before sending you flying into the dungeon wall. \n",
+      "damage": 12
+    },
+    {
+      "name": "monster_armedattack_guard",
+      "text": "THE ARACHNID stabs at your shoulder with one of its legs, but luckily it only knicks you. \n",
+      "damage": 5
+    },
+    {
+      "name": "monster_prepareattack",
+      "text": "THE ARACHNID screeches and rears back onto its four hind legs. \n",
+      "damage": 0
+    },
+    {
+      "name": "monster_defend",
+      "text": "THE ARACHNID launches a web at the ceiling, preparing to pull itself away in anticipation of your next attack. \n",
+      "damage": 0
+    },
+    {
+      "name": "loss_message",
+      "text": "\nTHE ARACHNID shoots a web, and you're too weak to slice through or dodge. The web traps you against the wall, and it calls forth its children to feast. \nThis is the end.",
+      "damage": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sword",
+      "damage": 10,
+      "armedattack_prepared": "You slash your enemy with your sword.",
+      "armedattack_unprepared": "Your sword is heavy, raise it before you strike!",
+      "prepare": "You raise your sword.",
+      "endingtext": "\nYou slash the monster one last time, and it falls to the ground.\nVictory is yours."
+    },
+    {
+      "name": "the flame scepter",
+      "damage": 24,
+      "armedattack_prepared": "The scepter blasts a vortex of fire at your enemy from its head, illuminating the whole dungeon.",
+      "armedattack_unprepared": "The scepter must be charged before you can attack!",
+      "prepare": "The orange plasma in the orb at the tip dances, hums, and shines brighter. You can feel its energy shaking the staff.",
+      "endingtext": "\nThe fire engulfs your enemy, and they lay there still, skin blackened and scorched after it subsides. \nVictory is yours."
+    },
+    {
+      "name": "gungnir",
+      "damage": 20,
+      "armedattack_prepared": "You take aim and throw gungnir, and it seems as if Odin itself guides the spear to target.",
+      "armedattack_unprepared": "You must take aim before you attack!",
+      "prepare": "You raise gungnir over your shoulder and prepare to strike.",
+      "endingtext": "\nYou aim between your enemy's eyes, and the spear finds its place as Norse legend told. \nVictory is yours."
+    },
+    {
+      "name": "mjolnir",
+      "damage": 18,
+      "armedattack_prepared": "You throw mjolnir and a blinding crack of lightning strikes your enemy as it flies at them.",
+      "armedattack_unprepared": "Mjolnir is heavy, and takes strength to throw.",
+      "prepare": "You raise mjolnir, and thunder reverberates throughout the cavern. The hair on your arms begin to stand up from the static.",
+      "endingtext": "\nWith a final thunderous boom, your enemy falls to the ground. \nVictory is yours."
+    },
+    {
+      "name": "the scythe of cronus",
+      "damage": 16,
+      "armedattack_prepared": "You swing the scythe and inflict a gaping wound upon your enemy.",
+      "armedattack_unprepared": "The scythe is heavy and takes great strength to wield.",
+      "prepare": "You carefully look for an opening as you prepare the scythe for another strike.",
+      "endingtext": "\nWith one final swing of the scythe, you decapitate your foe. \nVictory is yours."
+    }
+  ]
+}

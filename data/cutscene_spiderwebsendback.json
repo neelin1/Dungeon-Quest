@@ -1,0 +1,32 @@
+{
+  "start scene": "spiderweb",
+  "item": "",
+  "scenes": [
+    {
+      "name":"spiderweb",
+      "description":"You are caught in sticky cobwebs and are forced to temporarily retreat to the safety of where you had come. \n - continue",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit12,7"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "open_scene" : "You put the ivory serpent totem into the trap door's hole and turn. \nThe two halves of stone rumble and separate, revealing a ladder into the dark depths below.\n - continue",
+    "close_scene" : "There's a stone trap door with a strange hole in the floor. \n - continue",
+    "key" : "ivory serpent totem",
+    "end_floor": {
+        "same": false,
+        "name": "level_leviathan_chamber",
+        "r": 15,
+        "c": 2
+      }
+}

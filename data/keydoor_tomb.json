@@ -1,0 +1,11 @@
+{
+  "open_scene": "You put the crank in the door and turn it three times to the right with all your might. \nA long corridor appears behind the door.\n - continue",
+  "close_scene": "The door won't budge, but there appears to be a gear-shaped keyhole. \n - continue",
+  "key": "crank",
+  "end_floor": {
+    "same": false,
+    "name": "level_tomb",
+    "r": 8,
+    "c": 23
+  }
+}

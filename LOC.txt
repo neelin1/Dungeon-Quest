@@ -1,0 +1,7 @@
+While we did reach 1250 lines of code, which is over the requirement,
+I believe this to be an undercount of the total effort put into the project.
+The lines of code represent only the engine for the game. The game is held
+entirely in json / txt files that do not count. Probably over 25 hours of work
+went into the data files, if not more. Just glance through the data folder to 
+see the tremendous amount of effort put into the game that is not represented in
+lines of code 

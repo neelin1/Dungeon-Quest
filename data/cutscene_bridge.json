@@ -1,0 +1,94 @@
+{
+  "start scene": "the bridge",
+  "item": "",
+  "scenes": [
+    {
+      "name": "the bridge",
+      "description": "You carefully move across the rickety old bridge. You worringly notice that the wood plank bows slightly inward as the bridge sways back and forth in the wind. \n - continue \n - leave",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "missing_planks"
+        },
+        {
+          "name": "leave",
+          "id": "leave"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "missing_planks",
+      "description": "You carefully begin step across the bridge. You look down at the chasm hundreds of feet below you and and you gain a terrible sense of your own fragile mortality. \n\nYou reach the halfway point of the bridge. Most of the next few planks are missing, likely shattered on the rocky crags below. One slightly cracked wooden plank remains in the middle. Do you jump across to the next intact planks? Or do you gingerly step on the cracked plank? \n - jump \n - step",
+      "exits": [
+        {
+          "name": "jump",
+          "id": "death"
+        },
+        {
+          "name": "step",
+          "id": "success"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "success",
+      "description": "With one foot balanced on the rope, you gingerly place your other foot on the cracked wooden plank. It holds. You manage to shimmy your other foot along until you can comfortably step over to the planks on the other side of the hole.\n - continue",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "cross"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "leave",
+      "description": "exit6,7"
+    },
+    {
+      "name": "cross",
+      "description": "exit6,11"
+    },
+    {
+      "name": "death",
+      "description": "You gather strenght and vault across the gap in the bridge. You make it and land on the planks on the otherside. \n The old planks give out beneath your weight and you plummit to your death. Your body is shattered on the rocky crags hundreds of feet below \n GAME OVER",
+      "exits": [
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

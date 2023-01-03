@@ -1,0 +1,68 @@
+{
+  "start scene": "the sphinx riddle",
+  "item": "sword",
+  "scenes": [
+    {
+      "name": "the sphinx riddle",
+      "description": "You come across a great beast - THE SPHINX, a creature with the head of a woman, the haunches of a lion, and the wings of a bird. \n\n\"LISTEN, TRAVELER - IF YOU CAN SOLVE MY RIDDLE, YOU MAY PASS. OTHERWISE, YOU SHALL PERISH.\nWHAT GOES ON FOUR LEGS IN THE MORNING, \nTWO LEGS IN THE AFTERNOON,\nAND THREE LEGS IN THE EVENING?\" \n\n - give up",
+      "exits": [
+        {
+          "name": "man",
+          "id": "man"
+        },
+        {
+          "name": "give up",
+          "id": "death"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "man",
+      "description": "\"WELL DONE, TRAVELER. YOU MAY PASS.\" \n - continue",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "death",
+      "description": "THE SPHINX devours you. This is the end. \n - quit",
+      "exits": [
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "starting coordinates": [
+    {
+      "x": 8
+    },
+    {
+      "y": 23
+    }
+  ],
+  "encounters": [
+    {
+      "x": 9,
+      "y": 23,
+      "type": "flavor",
+      "json": "You pass through the threshold of the door. Suddenly, you hear a mechanical shifting sound in the walls. The door slams shut behind you. It appears that you're trapped in this ancient tomb.",
+      "repeatable": false
+    },
+    {
+      "x": 18,
+      "y": 30,
+      "type": "keydoor",
+      "json": "keydoor_maze",
+      "repeatable": true
+    },
+    {
+      "x": 17,
+      "y": 28,
+      "type": "cutscene",
+      "json": "cutscene_deadadventurer",
+      "repeatable": true
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "type": "cutscene",
+      "json": "cutscene_timeriddle",
+      "repeatable": true
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "type": "cutscene",
+      "json": "cutscene_brasskey",
+      "repeatable": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "start scene": "mjolnir on the floor",
+  "item": "mjolnir",
+  "scenes": [
+    {
+      "name": "mjolnir on the floor",
+      "description": "On the ground before you, a great metal hammer sits with its handle facing up. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You grip the handle, and with one great pull, you lift the hammer from the floor. \nYou now wield Mjolnir, the great weapon of Thor of Asgard. \nYou are worthy! \n - exit",
+      "item": "mjolnir",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

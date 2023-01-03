@@ -1,0 +1,58 @@
+{
+  "start message": "A monster appears and attacks you.",
+  "moves": [
+    {
+      "name" : "monster_unarmedattack_noguard",
+      "text" : "The monster scratches you. The cut stings against the cold dungeon air. \n",
+      "damage" : 5
+    },
+    {
+      "name" : "monster_unarmedattack_guard",
+      "text" : "The monster scratches you, but your guard absorbs most of the attack. \n",
+      "damage" : 3
+    },
+    {
+      "name" : "monster_armedattack_noguard",
+      "text" : "The monster knocks you to the ground, and your head spins in disorientation. \n",
+      "damage" : 10
+    },
+    {
+      "name" : "monster_armedattack_guard",
+      "text" : "The monster knocks you to the ground. You are hurt, but protected by your guard. \n",
+      "damage" : 5
+    },
+    {
+      "name" : "monster_prepareattack",
+      "text" : "The monster rears its head, preparing for an attack. \n",
+      "damage" : 0
+    },
+    {
+      "name" : "monster_defend",
+      "text" : "The monster guards itself carefully to protect from an incoming strike. \n",
+      "damage" : 0
+    },
+    {
+      "name" : "loss_message",
+      "text" : "\nThe monster knocks you to the ground. Your vision wobbles, and suddenly goes dark. \nThis is the end.",
+      "damage" : 0
+    }
+  ],
+  "weapons": [
+    {
+      "name" : "sword",
+      "damage" : 10,
+      "armedattack_prepared" : "You slash your enemy with your sword.",
+      "armedattack_unprepared" : "Your sword is heavy, raise it before you strike!",
+      "prepare" : "You raise your sword.",
+      "endingtext" : "\nYou slash the monster one last time, and it falls to the ground.\nVictory is yours."
+    },
+    {
+      "name" : "the flame scepter",
+      "damage" : 20,
+      "armedattack_prepared" : "The scepter blasts a vortex of fire at your enemy from its head, illuminating the whole dungeon.",
+      "armedattack_unprepared" : "The scepter must be charged before you can attack!",
+      "prepare" : "The orange plasma in the orb at the tip dances, hums, and shines brighter. You can feel its energy shaking the staff.",
+      "endingtext" : "\nThe fire engulfs your enemy. When it fades, a pile of blackened ash is all that remains on the stone floor. \nVictory is yours."
+    }
+  ]
+}

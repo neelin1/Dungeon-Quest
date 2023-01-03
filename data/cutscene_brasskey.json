@@ -1,0 +1,59 @@
+{
+  "start scene": "the brass key",
+  "item": "brass key",
+  "scenes": [
+    {
+      "name": "the brass key",
+      "description": "A perfectly cylindrical stone pedestal stands before you, with a brass key perfectly fit into a carved slot in its surface. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You take the brass key in your hand. It is covered in dust, but still shines in the dim light of the tomb. \n - exit",
+      "item": "brass key",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

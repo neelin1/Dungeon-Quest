@@ -1,0 +1,59 @@
+{
+  "start scene": "ivory serpent totem",
+  "item": "ivory serpent totem",
+  "scenes": [
+    {
+      "name": "ivory serpent totem",
+      "description": "Before you lies a raised dais with a pedestal made of shining obsidian. \nUpon the dais, in stark contrast to the black stone, sits a strange ivory totem of some monstrous serpent. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "As soon as your hand makes contact with the totem, your vision goes black. \nSuddenly, images flash through your mind: a violent ocean storm capsizing ships and sending them into the depths of the sea, sailors screaming, and a dark shadow ominously slithering beneath the waves. \nYour vision returns to normal, and you put the totem in your pack. \n - exit",
+      "item": "ivory serpent totem",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

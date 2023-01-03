@@ -1,0 +1,94 @@
+{
+    "start scene": "the bridge",
+    "item": "",
+    "scenes": [
+      {
+        "name": "the bridge",
+        "description": "The door opens onto a stone platform in a large natural cave. Opposite the entrance in the distance is another stone platform. \nBetween them, a series of wooden disks is suspended from the ceiling by massive steel chains. The cave floor seems to be covered by a pool of boiling mud. \n - continue \n - leave",
+        "exits": [
+          {
+            "name": "continue",
+            "id": "missing_planks"
+          },
+          {
+            "name": "leave",
+            "id": "leave"
+          },
+          {
+            "name": "quit",
+            "id": "quit"
+          },
+          {
+            "name": "q",
+            "id": "quit"
+          }
+        ]
+      },
+      {
+        "name": "missing_planks",
+        "description": "You notice there is a boiling geyser spouting mud between your platform and the next. Do you wait to jump, or jump now? \n - jump \n - wait to jump",
+        "exits": [
+          {
+            "name": "jump",
+            "id": "death"
+          },
+          {
+            "name": "wait to jump",
+            "id": "success"
+          },
+          {
+            "name": "quit",
+            "id": "quit"
+          },
+          {
+            "name": "q",
+            "id": "quit"
+          }
+        ]
+      },
+      {
+        "name": "success",
+        "description": "You wait for one moment for the geyser to shoot one last time - if you had jumped just then, you'd have been a goner!\n - continue",
+        "exits": [
+          {
+            "name": "continue",
+            "id": "cross"
+          },
+          {
+            "name": "quit",
+            "id": "quit"
+          },
+          {
+            "name": "q",
+            "id": "quit"
+          }
+        ]
+      },
+      {
+        "name": "leave",
+        "description": "exit6,7"
+      },
+      {
+        "name": "cross",
+        "description": "exit2,24"
+      },
+      {
+        "name": "death",
+        "description": "You jump, and are immediately hit by a boiling hot geyser of mud and sent plummeting to your death. \nThis is the end. \n - quit",
+        "exits": [
+          {
+            "name": "quit",
+            "id": "quit"
+          },
+          {
+            "name": "q",
+            "id": "quit"
+          }
+        ]
+      },
+      {
+        "name": "quit",
+        "description": "quit"
+      }
+    ]
+  }

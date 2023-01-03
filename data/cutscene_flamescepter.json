@@ -1,0 +1,59 @@
+{
+  "start scene": "the flame scepter",
+  "item": "the flame scepter",
+  "scenes": [
+    {
+      "name": "the flame scepter",
+      "description": "Inexpicably hovering in the air before you, a staff with a glowing orange orb in its head appears. \nInside the orb, almost like a snowglobe of energy, fire seems to dance and swirl.\n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You reach out your hand, and the flame scepter floats straight into it. \nYou sense that the scepter must hold a great mystical power. \n - exit",
+      "item": "the flame scepter",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

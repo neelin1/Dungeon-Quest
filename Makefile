@@ -12,7 +12,7 @@ utop:
 	OCAMLRUNPARAM=b dune utop src
 
 test:
-	OCAMLRUNPARAM=b dune exec test/main.exe
+	OCAMLRUNPARAM=b dune exec test/test.exe
 
 play:
 	OCAMLRUNPARAM=b dune exec bin/main.exe
@@ -35,3 +35,5 @@ opendoc: doc
 zip:
 	rm -f finalproject.zip
 	zip -r finalproject.zip . -x@exclude.lst
+
+

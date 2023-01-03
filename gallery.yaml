@@ -18,12 +18,12 @@ title: "Dungeon Quest (Nethack Inspired Video Game)"
 # OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
 git-repo: "https://github.coecis.cornell.edu/egl47/finalproject"
 # If you have no demo screencast, replace the url string with an empty string ""
-demo-video-url: ""
+demo-video-url: "https://www.youtube.com/watch?v=v1490-5TYfQ"
 # Write a short, attention-grabbing description of your project.
 desc: >
-  Our project is a video game inspired by the 1987 roguelike, Nethack.
-  Functionally, our game works as a game engine, taking in a text file
-  (within said text file is a reference to a separate Json file holding
-  additional data) and launching a game of Dungeon Quest. The player
+  Our project is a video game inspired by the 1987 roguelike, Nethack, and 
+  tabletop RPGS like Dungeons & Dragons.
+  Functionally, our game works as a game engine, taking in a text and json file
+  and launching a game of Dungeon Quest. The player
   will battle through layers of a dungeon, battling enemies, avoiding 
-  traps, and solving puzzles to reach the exit. 
+  traps, and solving puzzles to reach treasure and escape.

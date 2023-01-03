@@ -1,0 +1,173 @@
+{
+    "starting coordinates": [
+      {
+        "x": 15
+      },
+      {
+        "y": 2
+      }
+    ],
+    "encounters": [
+      {
+        "x": 16,
+        "y": 2,
+        "type": "flavor",
+        "json": "The staircase is badly rusted but appears to be sturdy. The air inside the passageway is warm, humid, and rather foul. \nYou reach the bottom of the stairs with a splash—the floor is submerged beneath a foot of water!",
+        "repeatable": true
+      },
+      {
+        "x": 17,
+        "y": 9,
+        "type": "flavor",
+        "json": "A massive engraving covers the wall of the cave, depicting the leviathan wreaking havoc throughout the centuries of man...",
+        "repeatable": true
+      },
+      {
+        "x": 14,
+        "y": 13,
+        "type": "cutscene",
+        "json": "cutscene_sphinxriddle",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 15,
+        "type": "flavor",
+        "json": "A green acidic slime drips from the ceiling, and sizzles every time it hits the floor. Something tells you you shouldn't go this way...",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 15,
+        "type": "flavor",
+        "json": "A green acidic slime drips from the ceiling, and sizzles every time it hits the floor. Something tells you you shouldn't go this way...",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 16,
+        "type": "cutscene",
+        "json": "cutscene_slimedeath",
+        "repeatable": true
+      },
+      {
+        "x": 5,
+        "y": 50,
+        "type": "cutscene",
+        "json": "cutscene_potion",
+        "repeatable": true
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "type": "cutscene",
+        "json": "cutscene_hangingplatforms",
+        "repeatable": true
+      },
+      {
+        "x": 10,
+        "y": 7,
+        "type": "cutscene",
+        "json": "cutscene_spiderwebsendback",
+        "repeatable": true
+      },
+      {
+        "x": 10,
+        "y": 8,
+        "type": "cutscene",
+        "json": "cutscene_spiderwebsendback",
+        "repeatable": true
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "type": "cutscene",
+        "json": "cutscene_spiderwebsendback",
+        "repeatable": true
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "type": "cutscene",
+        "json": "cutscene_spiderwebsendback",
+        "repeatable": true
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "type": "cutscene",
+        "json": "cutscene_spiderwebsendback",
+        "repeatable": true
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "type": "cutscene",
+        "json": "cutscene_spidercave",
+        "repeatable": true
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "type": "cutscene",
+        "json": "cutscene_potion",
+        "repeatable": true
+      },
+      {
+        "x": 11,
+        "y": 50,
+        "type": "cutscene",
+        "json": "cutscene_swimtocave",
+        "repeatable": true
+      },
+      {
+        "x": 16,
+        "y": 37,
+        "type": "cutscene",
+        "json": "cutscene_swimreturn",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 37,
+        "type": "cutscene",
+        "json": "cutscene_flamescepter",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 35,
+        "type": "cutscene",
+        "json": "cutscene_potion",
+        "repeatable": true
+      },
+      {
+        "x": 13,
+        "y": 39,
+        "type": "cutscene",
+        "json": "cutscene_potion",
+        "repeatable": true
+      },
+      {
+        "x": 14,
+        "y": 37,
+        "type": "battle",
+        "json": "battle_golem",
+        "repeatable": true
+      },
+      {
+        "x": 8,
+        "y": 60,
+        "type": "battle",
+        "json": "battle_leviathan",
+        "repeatable": true
+      },
+      {
+        "x": 8,
+        "y": 61,
+        "type": "cutscene",
+        "json": "cutscene_win",
+        "repeatable": true
+      }
+    ]
+  }

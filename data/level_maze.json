@@ -1,0 +1,138 @@
+{
+  "starting coordinates": [
+    {
+      "x": 1
+    },
+    {
+      "y": 2
+    }
+  ],
+  "encounters": [
+    {
+      "x": 1,
+      "y": 3,
+      "type": "flavor",
+      "json": "You hear strange echoes throughout the hallways of the maze. Like the catacombs, the walls seemed to be lined with the skulls of past adventurers...",
+      "repeatable": true
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "type": "flavor",
+      "json": "As you listen closer, the echoes seem to resemble a low growling noise and the shuffling of footsteps...",
+      "repeatable": true
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "type": "battle",
+      "json": "battle_minotaurskeleton",
+      "repeatable": false
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "type": "keydoor",
+      "json": "keydoor_trapdoor",
+      "repeatable": true
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "type": "cutscene",
+      "json": "cutscene_potion",
+      "repeatable": true
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "type": "flavor",
+      "json": "The bones of many dead adventurers litter the room before you. \nOn the opposite end you see a black pedestal sitting atop a raised dais. \nAs you step in, the bones begin to shake all around you, forming into a skeletal guard.",
+      "repeatable": false
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "type": "cutscene",
+      "json": "cutscene_serpenttotem",
+      "repeatable": true
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "type": "cutscene",
+      "json": "cutscene_mjolnir",
+      "repeatable": true
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "type": "cutscene",
+      "json": "cutscene_gungnir",
+      "repeatable": true
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "type": "flavor",
+      "json": "You hear a strange vibrational hum from the west hall.",
+      "repeatable": true
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "type": "cutscene",
+      "json": "cutscene_potion",
+      "repeatable": true
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "type": "flavor",
+      "json": "You hear further muffled grunts and clanging from down the hall to the west, but you're still curious about what might lie in the hallway straight ahead.",
+      "repeatable": true
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "type": "battle",
+      "json": "battle_skeleton",
+      "repeatable": false
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "type": "cutscene",
+      "json": "cutscene_potion",
+      "repeatable": true
+    }
+  ]
+}

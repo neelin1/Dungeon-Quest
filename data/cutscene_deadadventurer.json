@@ -1,0 +1,59 @@
+{
+  "start scene": "deadadventurer",
+  "item": "potion",
+  "scenes": [
+    {
+      "name": "deadadventurer",
+      "description": "Before you lies the skeleton of a dead adventurer. You rummage through his pack, and find a potion and a journal. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "The journal says he was searching for the den of the Leviathan, a great beast of legend known for sinking ships and hoarding their treasure. \n - exit",
+      "item": "potion",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

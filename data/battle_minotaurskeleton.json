@@ -1,0 +1,84 @@
+{
+  "start message": "As you peer into the darkness ahead, a pair of glowing eyes stares back at you. \nThe skeleton of a giant half-man, half-bull creature emerges, its bones rattling. \nThe once-great guardian of the labyrinth, THE MINOTAUR SKELETON stands before you.",
+  "hp": 120,
+  "fleeable": false,
+  "moves": [
+    {
+      "name": "monster_unarmedattack_noguard",
+      "text": "THE MINOTAUR swings at you with its axe. It barely misses, but leaves a bloody gash across your upper arm. \n",
+      "damage": 10
+    },
+    {
+      "name": "monster_unarmedattack_guard",
+      "text": "THE MINOTAUR almost catches you with its axe, but you manage to block, absorbing the impact. \n",
+      "damage": 0
+    },
+    {
+      "name": "monster_armedattack_noguard",
+      "text": "THE MINOTAUR roars, fire spouting from the eye sockets of its skull, and slams into you with its horns. \nYou've been stabbed slightly in the side, and go flying as it swings its head. \n",
+      "damage": 15
+    },
+    {
+      "name": "monster_armedattack_guard",
+      "text": "THE MINOTAUR charges you with its horns, but you swiftly dodge to the side. \nAs you turn, he strikes you with the butt of his axe, but you are only slightly bruised. \n",
+      "damage": 5
+    },
+    {
+      "name": "monster_prepareattack",
+      "text": "THE MINOTAUR points towards you, and a ghastly voice emerges from its skeletal jaw. \n\"YOU HAVE TRESPASSED UPON SACRED GROUND. PREPARE FOR YOUR DEMISE.\"\n",
+      "damage": 0
+    },
+    {
+      "name": "monster_defend",
+      "text": "THE MINOTAUR holds its axe forward before its body, preparing to guard your next strike. \n",
+      "damage": 0
+    },
+    {
+      "name": "loss_message",
+      "text": "\nTHE MINOTAUR charges you, and you are unable to dodge as one of its horns impales directly through your heart. \nIt stands up, your body still stuck on its horn as you face the ceiling and blood drips out of your back. \nThis is the end.",
+      "damage": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sword",
+      "damage": 10,
+      "armedattack_prepared": "You slash your enemy with your sword.",
+      "armedattack_unprepared": "Your sword is heavy, raise it before you strike!",
+      "prepare": "You raise your sword.",
+      "endingtext": "\nYou slash the monster one last time, and it falls to the ground.\nVictory is yours."
+    },
+    {
+      "name": "the flame scepter",
+      "damage": 24,
+      "armedattack_prepared": "The scepter blasts a vortex of fire at your enemy from its head, illuminating the whole dungeon.",
+      "armedattack_unprepared": "The scepter must be charged before you can attack!",
+      "prepare": "The orange plasma in the orb at the tip dances, hums, and shines brighter. You can feel its energy shaking the staff.",
+      "endingtext": "\nThe fire engulfs your enemy, and they lay there still, skin blackened and scorched after it subsides. \nVictory is yours."
+    },
+    {
+      "name": "gungnir",
+      "damage": 20,
+      "armedattack_prepared": "You take aim and throw gungnir, and it seems as if Odin itself guides the spear to target.",
+      "armedattack_unprepared": "You must take aim before you attack!",
+      "prepare": "You raise gungnir over your shoulder and prepare to strike.",
+      "endingtext": "\nYou aim between your enemy's eyes, and the spear finds its place as Norse legend told. \nVictory is yours."
+    },
+    {
+      "name": "mjolnir",
+      "damage": 18,
+      "armedattack_prepared": "You throw mjolnir and a blinding crack of lightning strikes your enemy as it flies at them.",
+      "armedattack_unprepared": "Mjolnir is heavy, and takes strength to throw.",
+      "prepare": "You raise mjolnir, and thunder reverberates throughout the cavern. The hair on your arms begin to stand up from the static.",
+      "endingtext": "\nWith a final thunderous boom, your enemy falls to the ground. \nVictory is yours."
+    },
+    {
+      "name": "the scythe of cronus",
+      "damage": 16,
+      "armedattack_prepared": "You swing the scythe and inflict a gaping wound upon your enemy.",
+      "armedattack_unprepared": "The scythe is heavy and takes great strength to wield.",
+      "prepare": "You carefully look for an opening as you prepare the scythe for another strike.",
+      "endingtext": "\nWith one final swing of the scythe, you decapitate your foe. \nVictory is yours."
+    }
+  ]
+}

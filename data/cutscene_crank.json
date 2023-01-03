@@ -1,0 +1,59 @@
+{
+  "start scene": "the crank",
+  "item": "crank",
+  "scenes": [
+    {
+      "name": "the crank",
+      "description": "A small wooden table cluttered with metal tools sits in the corner. \nYou notice a small crank that might be useful. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You take the crank in your hand. The metal is rusted and the wood feels ancient. \n - exit",
+      "item": "crank",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit3,17"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "start scene": "last chance",
+  "item": "",
+  "scenes": [
+    {
+      "name":"last chance",
+      "description":"Before you, a natural cavern tunnel stretches forward, lined with cobwebs. No sane traveler would enter. \n - continue \n - turn back",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "death"
+        },
+        {
+          "name": "turn back",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "death",
+      "description": "You are overwhelmed and devoured by giant spiders nearly immediately. \nThis is the end. \n - quit",
+      "exits": [
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

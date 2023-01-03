@@ -1,0 +1,11 @@
+{
+  "open_scene": "You put the brass key into the door and turn. \nBehind the door lies a long staircase, descending into the depths of a maze of corridors.\n - continue",
+  "close_scene": "The locked door won't budge. You should probably find the key. \n - continue",
+  "key": "brass key",
+  "end_floor": {
+    "same": false,
+    "name": "level_maze",
+    "r": 1,
+    "c": 2
+  }
+}

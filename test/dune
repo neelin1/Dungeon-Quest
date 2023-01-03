@@ -1,4 +1,4 @@
 (executable
- (name main)
+ (name test)
  (public_name test)
  (libraries Game ounit2))

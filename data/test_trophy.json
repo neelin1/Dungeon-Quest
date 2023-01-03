@@ -1,39 +1,41 @@
 {
-  "start scene": "the stairway",
+  "start scene": "the trophy",
+  "item": "golden idol",
   "scenes": [
     {
-      "name": "the stairway",
-      "description": "A stairway descends deeper into the dungeon \n - up \n - down",
+      "name": "the trophy",
+      "description": "There it is! A golden idol sits upon a pedestal before you. \n - take \n - leave",
       "exits": [
         {
-          "name": "up",
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You take the shining idol in your hand. The gold gleams even in the dark of the dungeon. \n - exit",
+      "item": "golden idol",
+      "exits": [
+        {
+          "name": "exit",
           "id": "exit"
         },
         {
           "name": "down",
-          "id": "down"
-        },
-        {
-          "name": "quit",
-          "id": "quit"
-        },
-        {
-          "name": "q",
-          "id": "quit"
-        }
-      ]
-    },
-    {
-      "name": "down",
-      "description": "The stairway winds down and down. Each of your steps disturbs the dust. \n - up \n - down",
-      "exits": [
-        {
-          "name": "up",
-          "id": "the stairway"
-        },
-        {
-          "name": "down",
-          "id": "exit0,0"
+          "id": "exit"
         },
         {
           "name": "quit",
@@ -47,11 +49,11 @@
     },
     {
       "name": "exit",
-      "description": "exit0,0"
+      "description": "exit"
     },
     {
       "name": "exit",
-      "description": "exit0,0"
+      "description": "exit"
     },
     {
       "name": "quit",

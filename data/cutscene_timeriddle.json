@@ -1,0 +1,59 @@
+{
+  "start scene": "the time riddle",
+  "item": "the scythe of cronus",
+  "scenes": [
+    {
+      "name": "the time riddle",
+      "description": "Carved into the wall is a stone face of an old bearded man. A glowing blue light comes from behind the carving's eyes, and a strange voice bellows from behind the face. \n\n\"HEED THIS, TRAVELER - YOU SHALL RECEIVE A GREAT GIFT IF YOU CAN SOLVE MY RIDDLE.\nTHIS THING ALL THINGS DEVOURS - \nBIRDS, BEASTS, TREES, AND FLOWERS.\nGNAWS IRON BITES STEEL,\nGRINDS HARD STONES TO MEAL,\nSLAYS KING, RUINS TOWN,\nAND BEATS HIGH MOUNTAIN DOWN.\" \n\n - give up",
+      "exits": [
+        {
+          "name": "time",
+          "id": "take"
+        },
+        {
+          "name": "give up",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "The voice booms, \n\"WELL DONE, TRAVELER. TAKE THIS, THE SCYTHE OF CRONUS - THE KING OF TITANS, THE GOD OF TIME.\" \n A strange, black metallic scythe with golden inscriptions materializes before you. \n - take it",
+      "item": "the scythe of cronus",
+      "exits": [
+        {
+          "name": "take it",
+          "id": "exit"
+        },
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit16,3"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "start message": "A monster appears and attacks you.",
+  "hp" : 50,
+  "fleeable":true,
+  "moves": [
+    {
+      "name" : "monster_unarmedattack_noguard",
+      "text" : "The monster scratches you. The cut stings against the cold dungeon air. \n",
+      "damage" : 5
+    },
+    {
+      "name" : "monster_unarmedattack_guard",
+      "text" : "The monster scratches you, but your guard absorbs most of the attack. \n",
+      "damage" : 3
+    },
+    {
+      "name" : "monster_armedattack_noguard",
+      "text" : "The monster knocks you to the ground, and your head spins in disorientation. \n",
+      "damage" : 10
+    },
+    {
+      "name" : "monster_armedattack_guard",
+      "text" : "The monster knocks you to the ground. You are hurt, but protected by your guard. \n",
+      "damage" : 5
+    },
+    {
+      "name" : "monster_prepareattack",
+      "text" : "The monster rears its head, preparing for an attack. \n",
+      "damage" : 0
+    },
+    {
+      "name" : "monster_defend",
+      "text" : "The monster guards itself carefully to protect from an incoming strike. \n",
+      "damage" : 0
+    },
+    {
+      "name" : "loss_message",
+      "text" : "\nThe monster knocks you to the ground. Your vision wobbles, and suddenly goes dark. \nThis is the end.",
+      "damage" : 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sword",
+      "damage": 10,
+      "armedattack_prepared": "You slash your enemy with your sword.",
+      "armedattack_unprepared": "Your sword is heavy, raise it before you strike!",
+      "prepare": "You raise your sword.",
+      "endingtext": "\nYou slash the monster one last time, and it falls to the ground.\nVictory is yours."
+    },
+    {
+      "name": "the flame scepter",
+      "damage": 24,
+      "armedattack_prepared": "The scepter blasts a vortex of fire at your enemy from its head, illuminating the whole dungeon.",
+      "armedattack_unprepared": "The scepter must be charged before you can attack!",
+      "prepare": "The orange plasma in the orb at the tip dances, hums, and shines brighter. You can feel its energy shaking the staff.",
+      "endingtext": "\nThe fire engulfs your enemy, and they lay there still, skin blackened and scorched after it subsides. \nVictory is yours."
+    },
+    {
+      "name": "gungnir",
+      "damage": 20,
+      "armedattack_prepared": "You take aim and throw gungnir, and it seems as if Odin itself guides the spear to target.",
+      "armedattack_unprepared": "You must take aim before you attack!",
+      "prepare": "You raise gungnir over your shoulder and prepare to strike.",
+      "endingtext": "\nYou aim between your enemy's eyes, and the spear finds its place as Norse legend told. \nVictory is yours."
+    },
+    {
+      "name": "mjolnir",
+      "damage": 18,
+      "armedattack_prepared": "You throw mjolnir and a blinding crack of lightning strikes your enemy as it flies at them.",
+      "armedattack_unprepared": "Mjolnir is heavy, and takes strength to throw.",
+      "prepare": "You raise mjolnir, and thunder reverberates throughout the cavern. The hair on your arms begin to stand up from the static.",
+      "endingtext": "\nWith a final thunderous boom, your enemy falls to the ground. \nVictory is yours."
+    },
+    {
+      "name": "the scythe of cronus",
+      "damage": 16,
+      "armedattack_prepared": "You swing the scythe and inflict a gaping wound upon your enemy.",
+      "armedattack_unprepared": "The scythe is heavy and takes great strength to wield.",
+      "prepare": "You carefully look for an opening as you prepare the scythe for another strike.",
+      "endingtext": "\nWith one final swing of the scythe, you decapitate your foe. \nVictory is yours."
+    }
+  ]
+}

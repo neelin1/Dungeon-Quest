@@ -1,0 +1,59 @@
+{
+  "start scene": "gungnir on the wall",
+  "item": "gungnir",
+  "scenes": [
+    {
+      "name": "gungnir on the wall",
+      "description": "High upon the wall in front of you hangs a great spear with a shining steel tip. \n - take \n - leave",
+      "exits": [
+        {
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You reach as high as you can, and are able to just barely grab it and pull it off the wall. \nYou now wield Gungnir, the legendary spear of Odin said to never miss its mark. \n - exit",
+      "item": "gungnir",
+      "exits": [
+        {
+          "name": "exit",
+          "id": "exit"
+        },
+        {
+          "name": "down",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

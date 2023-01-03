@@ -1,17 +1,41 @@
 {
-  "start scene": "the stairway",
+  "start scene": "the potion",
+  "item": "potion",
   "scenes": [
     {
-      "name": "the stairway",
-      "description": "A stairway descends deeper into the dungeon \n - up \n - down",
+      "name": "the potion",
+      "description": "Before you sits the skeleton of a dead adventurer, clutching his last health potion. \n - take \n - leave",
       "exits": [
         {
-          "name": "up",
+          "name": "take",
+          "id": "take"
+        },
+        {
+          "name": "leave",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "take",
+      "description": "You take the potion in your hand, wiping the dust from the glass. \n - exit",
+      "item": "potion",
+      "exits": [
+        {
+          "name": "exit",
           "id": "exit"
         },
         {
           "name": "down",
-          "id": "down"
+          "id": "exit"
         },
         {
           "name": "quit",
@@ -22,32 +46,6 @@
           "id": "quit"
         }
       ]
-    },
-    {
-      "name": "down",
-      "description": "The stairway winds down and down. Each of your steps disturbs the dust. \n - up \n - down",
-      "exits": [
-        {
-          "name": "up",
-          "id": "the stairway"
-        },
-        {
-          "name": "down",
-          "id": "exit0,0"
-        },
-        {
-          "name": "quit",
-          "id": "quit"
-        },
-        {
-          "name": "q",
-          "id": "quit"
-        }
-      ]
-    },
-    {
-      "name": "exit",
-      "description": "exit0,0"
     },
     {
       "name": "exit",

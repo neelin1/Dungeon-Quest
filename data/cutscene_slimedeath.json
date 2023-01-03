@@ -1,0 +1,50 @@
+{
+  "start scene": "last chance",
+  "item": "",
+  "scenes": [
+    {
+      "name":"last chance",
+      "description":"A drop of it falls on your skin and you frantically wipe it off as it burns. \n - continue \n - turn back",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "death"
+        },
+        {
+          "name": "turn back",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "death",
+      "description": "The ceiling gives way and suddenly you are doused in burning acidic slime. You scream as your skin burns off. \nThis is the end. \n - quit",
+      "exits": [
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}

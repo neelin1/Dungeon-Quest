@@ -1,0 +1,23 @@
+{
+    "start scene": "win scene",
+    "scenes": [
+      {
+        "name": "win scene",
+        "description": "You approach the dead body of the leviathan, and suddenly notice that underneath the water are piles upon piles of gold and endless riches. \nYou stuff your pack with as much gold as it can take, cut a tooth and a few scales from the leviathan as a trophy, and begin the return trek. \nCongratulations! You have won the game! \n - quit",
+        "exits": [
+          {
+            "name": "quit",
+            "id": "quit"
+          },
+          {
+            "name": "q",
+            "id": "quit"
+          }
+        ]
+      },
+      {
+        "name": "quit",
+        "description": "quit"
+      }
+    ]
+  }

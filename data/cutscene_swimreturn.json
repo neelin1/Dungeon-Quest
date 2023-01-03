@@ -1,0 +1,58 @@
+{
+  "start scene": "swim to cave",
+  "item": "",
+  "scenes": [
+    {
+      "name":"swim to cave",
+      "description":"You stand over the opening to the cave tunnel. Do you swim back? \n - continue \n - turn back",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "emerging"
+        },
+        {
+          "name": "turn back",
+          "id": "exit"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name":"emerging",
+      "description":"You swim back through the tunnel. \nYou return to the surface inside of the main cavern, and take a few deep breaths. \n - continue",
+      "exits": [
+        {
+          "name": "continue",
+          "id": "exitemerge"
+        },
+        {
+          "name": "quit",
+          "id": "quit"
+        },
+        {
+          "name": "q",
+          "id": "quit"
+        }
+      ]
+    },
+    {
+      "name": "exit",
+      "description": "exit0,0"
+    },
+    {
+      "name": "exitemerge",
+      "description": "exit11,50"
+    },
+    {
+      "name": "quit",
+      "description": "quit"
+    }
+  ]
+}
