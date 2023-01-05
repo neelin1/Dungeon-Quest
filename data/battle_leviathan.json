@@ -1,42 +1,42 @@
 {
   "start message": "You notice a shimmering movement below the surface of the water in the murky subterranean lake before you. \nSuddenly, a gigantic reptilian head bursts forth, spiraling up to the top of the cavern, its body thicker and taller than a tower. \nIt's the beast of legend. \nTHE LEVIATHAN.",
-  "hp" : 200,
-  "fleeable":false,
+  "hp": 200,
+  "fleeable": false,
   "moves": [
     {
-      "name" : "monster_unarmedattack_noguard",
-      "text" : "THE LEVIATHAN shakes the cavern, rocks falling from the ceiling as its head soars in to bite you. You manage to dodge, but hit the ground hard. \n",
-      "damage" : 12
+      "name": "monster_unarmedattack_noguard",
+      "text": "THE LEVIATHAN shakes the cavern, rocks falling from the ceiling as its head soars in to bite you. You manage to dodge, but hit the ground extremely hard. \n",
+      "damage": 12
     },
     {
-      "name" : "monster_unarmedattack_guard",
-      "text" : "THE LEVIATHAN crashes into the water, its splash causing a wave to smack into you and knock you down. However, your guard lessens the damage. \n",
-      "damage" : 6
+      "name": "monster_unarmedattack_guard",
+      "text": "THE LEVIATHAN crashes into the water, its splash causing a wave to smack into you and knock you down. However, your guard lessens the damage. \n",
+      "damage": 6
     },
     {
-      "name" : "monster_armedattack_noguard",
-      "text" : "THE LEVIATHAN roars, whips its tail, and sends you flying into the wall. You fall into the water and are submerged under a torrential wave. \nAs the water engulfs you, you can't tell which way is up, and your ribs scream as you hold your breath. \nJust as you nearly lose consciousness, you resurface and gasp for air.\n",
-      "damage" : 20
+      "name": "monster_armedattack_noguard",
+      "text": "THE LEVIATHAN roars, whips its tail, and sends you flying into the wall. You fall into the water and are submerged under a torrential wave. \nAs the water engulfs you, you can't tell which way is up, and your ribs scream as you hold your breath. \nJust as you nearly lose consciousness, you resurface and gasp for air.\n",
+      "damage": 20
     },
     {
-      "name" : "monster_armedattack_guard",
-      "text" : "THE LEVIATHAN roars, and dives at you with a mouth wide enough to eat you whole. \nLuckily, you leap out of the water just in time and deflect its head to the side by guarding with your weapon. \n",
-      "damage" : 6
+      "name": "monster_armedattack_guard",
+      "text": "THE LEVIATHAN roars, and dives at you with a mouth wide enough to eat you whole. \nLuckily, you leap out of the water just in time and deflect its head to the side by guarding with your weapon. \n",
+      "damage": 6
     },
     {
-      "name" : "monster_prepareattack",
-      "text" : "THE LEVIATHAN dives back down into the water with a tremendous crash. You can sense it circling you beneath the water. \nThe paranoia of a possible strike coming at any moment drives your heart racing. \n",
-      "damage" : 0
+      "name": "monster_prepareattack",
+      "text": "THE LEVIATHAN dives back down into the water with a tremendous crash. You can sense it circling you beneath the water. \nThe paranoia of a possible strike coming at any moment drives your heart racing. \n",
+      "damage": 0
     },
     {
-      "name" : "monster_defend",
-      "text" : "The scales of THE LEVIATHAN seem to shift, shudder, and flatten against its body, creating a defensive exterior. \n",
-      "damage" : 0
+      "name": "monster_defend",
+      "text": "The scales of THE LEVIATHAN seem to shift, shudder, and flatten against its body, creating a defensive exterior. \n",
+      "damage": 0
     },
     {
-      "name" : "loss_message",
-      "text" : "\nAs you are overcome in the whitewash of another giant wave, you completely lose your bearings below the water. \nYour head, having been knocked, begins to spin as your lungs burn and your vision blackens. \nSuddenly, the wide open jaws of THE LEVIATHAN come racing towards you from beyond the haze. \nThis is the end.",
-      "damage" : 0
+      "name": "loss_message",
+      "text": "\nAs you are overcome in the whitewash of another giant wave, you completely lose your bearings below the water. \nYour head, having been knocked, begins to spin as your lungs burn and your vision blackens. \nSuddenly, the wide open jaws of THE LEVIATHAN come racing towards you from beyond the haze. \nThis is the end.",
+      "damage": 0
     }
   ],
   "weapons": [
